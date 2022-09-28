@@ -1,0 +1,402 @@
+{
+	"info": {
+		"_postman_id": "6bedea99-1fb6-4a1e-8556-2388795ace0a",
+		"name": "Reto2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Client",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://g88ed2e9dd645da-reto.adb.us-phoenix-1.oraclecloudapps.com/ords/admin/client/client",
+					"protocol": "https",
+					"host": [
+						"g88ed2e9dd645da-reto",
+						"adb",
+						"us-phoenix-1",
+						"oraclecloudapps",
+						"com"
+					],
+					"path": [
+						"ords",
+						"admin",
+						"client",
+						"client"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Client",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":1,\"name\":\"Juan\",\"email\":\"juan@correo.co\",\"age\":33}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://g88ed2e9dd645da-reto.adb.us-phoenix-1.oraclecloudapps.com/ords/admin/client/client",
+					"protocol": "https",
+					"host": [
+						"g88ed2e9dd645da-reto",
+						"adb",
+						"us-phoenix-1",
+						"oraclecloudapps",
+						"com"
+					],
+					"path": [
+						"ords",
+						"admin",
+						"client",
+						"client"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put Client",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":1,\"name\":\"Alberto\",\"email\":\"alberto@correo.co\",\"age\":62}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://g88ed2e9dd645da-reto.adb.us-phoenix-1.oraclecloudapps.com/ords/admin/client/client",
+					"protocol": "https",
+					"host": [
+						"g88ed2e9dd645da-reto",
+						"adb",
+						"us-phoenix-1",
+						"oraclecloudapps",
+						"com"
+					],
+					"path": [
+						"ords",
+						"admin",
+						"client",
+						"client"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Client",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\"id\":1}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://g88ed2e9dd645da-reto.adb.us-phoenix-1.oraclecloudapps.com/ords/admin/client/client",
+					"protocol": "https",
+					"host": [
+						"g88ed2e9dd645da-reto",
+						"adb",
+						"us-phoenix-1",
+						"oraclecloudapps",
+						"com"
+					],
+					"path": [
+						"ords",
+						"admin",
+						"client",
+						"client"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Library",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://g88ed2e9dd645da-reto.adb.us-phoenix-1.oraclecloudapps.com/ords/admin/library/library",
+					"protocol": "https",
+					"host": [
+						"g88ed2e9dd645da-reto",
+						"adb",
+						"us-phoenix-1",
+						"oraclecloudapps",
+						"com"
+					],
+					"path": [
+						"ords",
+						"admin",
+						"library",
+						"library"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Library",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":1,\"target\":\"Lectura\",\"capacity\":5,\"category_id\":19,\"name\":\"Sala de lectura para 5 personas\"}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://g88ed2e9dd645da-reto.adb.us-phoenix-1.oraclecloudapps.com/ords/admin/library/library",
+					"protocol": "https",
+					"host": [
+						"g88ed2e9dd645da-reto",
+						"adb",
+						"us-phoenix-1",
+						"oraclecloudapps",
+						"com"
+					],
+					"path": [
+						"ords",
+						"admin",
+						"library",
+						"library"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put Library",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":1,\"target\":\"Foro\",\"capacity\":12,\"category_id\":1,\"name\":\"Sala de Foro para 12 personas\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://g88ed2e9dd645da-reto.adb.us-phoenix-1.oraclecloudapps.com/ords/admin/library/library",
+					"protocol": "https",
+					"host": [
+						"g88ed2e9dd645da-reto",
+						"adb",
+						"us-phoenix-1",
+						"oraclecloudapps",
+						"com"
+					],
+					"path": [
+						"ords",
+						"admin",
+						"library",
+						"library"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE Library",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":1}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://g88ed2e9dd645da-reto.adb.us-phoenix-1.oraclecloudapps.com/ords/admin/library/library",
+					"protocol": "https",
+					"host": [
+						"g88ed2e9dd645da-reto",
+						"adb",
+						"us-phoenix-1",
+						"oraclecloudapps",
+						"com"
+					],
+					"path": [
+						"ords",
+						"admin",
+						"library",
+						"library"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Message",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://g88ed2e9dd645da-reto.adb.us-phoenix-1.oraclecloudapps.com/ords/admin/message/message",
+					"protocol": "https",
+					"host": [
+						"g88ed2e9dd645da-reto",
+						"adb",
+						"us-phoenix-1",
+						"oraclecloudapps",
+						"com"
+					],
+					"path": [
+						"ords",
+						"admin",
+						"message",
+						"message"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Message",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":1,\"messagetext\":\"Este es un mensaje\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://g88ed2e9dd645da-reto.adb.us-phoenix-1.oraclecloudapps.com/ords/admin/message/message",
+					"protocol": "https",
+					"host": [
+						"g88ed2e9dd645da-reto",
+						"adb",
+						"us-phoenix-1",
+						"oraclecloudapps",
+						"com"
+					],
+					"path": [
+						"ords",
+						"admin",
+						"message",
+						"message"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put Message",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":1,\"messagetext\":\"NUEVO Este es un mensaje\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://g88ed2e9dd645da-reto.adb.us-phoenix-1.oraclecloudapps.com/ords/admin/message/message",
+					"protocol": "https",
+					"host": [
+						"g88ed2e9dd645da-reto",
+						"adb",
+						"us-phoenix-1",
+						"oraclecloudapps",
+						"com"
+					],
+					"path": [
+						"ords",
+						"admin",
+						"message",
+						"message"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Message",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":1}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://g88ed2e9dd645da-reto.adb.us-phoenix-1.oraclecloudapps.com/ords/admin/message/message",
+					"protocol": "https",
+					"host": [
+						"g88ed2e9dd645da-reto",
+						"adb",
+						"us-phoenix-1",
+						"oraclecloudapps",
+						"com"
+					],
+					"path": [
+						"ords",
+						"admin",
+						"message",
+						"message"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
